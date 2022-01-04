@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CB2086278422BF005AA7D7 /* ZethicAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB2085278422BF005AA7D7 /* ZethicAssignmentApp.swift */; };
+		18CB2088278422BF005AA7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB2087278422BF005AA7D7 /* ContentView.swift */; };
+		18CB208A278422C0005AA7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB2089278422C0005AA7D7 /* Assets.xcassets */; };
+		18CB208D278422C0005AA7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB208C278422C0005AA7D7 /* Preview Assets.xcassets */; };
+		18CB209927842609005AA7D7 /* CBPeripheralProtcolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB209827842609005AA7D7 /* CBPeripheralProtcolDelegate.swift */; };
+		18CB209C27842747005AA7D7 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB209B27842747005AA7D7 /* Peripheral.swift */; };
+		18CB209E27842797005AA7D7 /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB209D27842797005AA7D7 /* Characteristic.swift */; };
+		18CB20A0278427AE005AA7D7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB209F278427AE005AA7D7 /* Service.swift */; };
+		18CB20A3278427D9005AA7D7 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20A2278427D9005AA7D7 /* Mock.swift */; };
+		18CB20A5278427F5005AA7D7 /* CBCentralManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20A4278427F5005AA7D7 /* CBCentralManagerMock.swift */; };
+		18CB20A727842816005AA7D7 /* CBPeripheralMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20A627842816005AA7D7 /* CBPeripheralMock.swift */; };
+		18CB20A927842832005AA7D7 /* ServiceCharacteristicsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20A827842832005AA7D7 /* ServiceCharacteristicsMock.swift */; };
+		18CB20AD27842960005AA7D7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20AC27842960005AA7D7 /* ListView.swift */; };
+		18CB20AF27842A42005AA7D7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20AE27842A42005AA7D7 /* DetailView.swift */; };
+		18CB20B527842CA6005AA7D7 /* CoreBluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20B427842CA6005AA7D7 /* CoreBluetoothViewModel.swift */; };
+		18CB20B727842E68005AA7D7 /* CoreBluetoothViewModelExtension+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20B627842E68005AA7D7 /* CoreBluetoothViewModelExtension+Delegate.swift */; };
+		18CB20B927842E87005AA7D7 /* CoreBluetoothViewModelExtension+SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB20B827842E87005AA7D7 /* CoreBluetoothViewModelExtension+SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1881C0F427844D5B00420A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CB2082278422BF005AA7D7 /* ZethicAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZethicAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CB2085278422BF005AA7D7 /* ZethicAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZethicAssignmentApp.swift; sourceTree = "<group>"; };
+		18CB2087278422BF005AA7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18CB2089278422C0005AA7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CB208C278422C0005AA7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18CB209827842609005AA7D7 /* CBPeripheralProtcolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralProtcolDelegate.swift; sourceTree = "<group>"; };
+		18CB209B27842747005AA7D7 /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		18CB209D27842797005AA7D7 /* Characteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characteristic.swift; sourceTree = "<group>"; };
+		18CB209F278427AE005AA7D7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		18CB20A2278427D9005AA7D7 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		18CB20A4278427F5005AA7D7 /* CBCentralManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCentralManagerMock.swift; sourceTree = "<group>"; };
+		18CB20A627842816005AA7D7 /* CBPeripheralMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralMock.swift; sourceTree = "<group>"; };
+		18CB20A827842832005AA7D7 /* ServiceCharacteristicsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCharacteristicsMock.swift; sourceTree = "<group>"; };
+		18CB20AC27842960005AA7D7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		18CB20AE27842A42005AA7D7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		18CB20B427842CA6005AA7D7 /* CoreBluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewModel.swift; sourceTree = "<group>"; };
+		18CB20B627842E68005AA7D7 /* CoreBluetoothViewModelExtension+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreBluetoothViewModelExtension+Delegate.swift"; sourceTree = "<group>"; };
+		18CB20B827842E87005AA7D7 /* CoreBluetoothViewModelExtension+SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreBluetoothViewModelExtension+SwiftUIView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CB207F278422BF005AA7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CB2079278422BF005AA7D7 = {
+			isa = PBXGroup;
+			children = (
+				18CB2084278422BF005AA7D7 /* ZethicAssignment */,
+				18CB2083278422BF005AA7D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CB2083278422BF005AA7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CB2082278422BF005AA7D7 /* ZethicAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CB2084278422BF005AA7D7 /* ZethicAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20B027842C49005AA7D7 /* Interactor */,
+				18CB2096278425DC005AA7D7 /* Entity */,
+				18CB20942784253D005AA7D7 /* Router */,
+				18CB209327842337005AA7D7 /* View */,
+				18CB20952784254E005AA7D7 /* Resources */,
+				18CB208B278422C0005AA7D7 /* Preview Content */,
+				1881C0F427844D5B00420A76 /* Info.plist */,
+			);
+			path = ZethicAssignment;
+			sourceTree = "<group>";
+		};
+		18CB208B278422C0005AA7D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18CB208C278422C0005AA7D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18CB209327842337005AA7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CB2087278422BF005AA7D7 /* ContentView.swift */,
+				18CB20AC27842960005AA7D7 /* ListView.swift */,
+				18CB20AE27842A42005AA7D7 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18CB20942784253D005AA7D7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				18CB2085278422BF005AA7D7 /* ZethicAssignmentApp.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		18CB20952784254E005AA7D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18CB2089278422C0005AA7D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18CB2096278425DC005AA7D7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20AB27842878005AA7D7 /* CoreBluetooth */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		18CB2097278425F6005AA7D7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				18CB209827842609005AA7D7 /* CBPeripheralProtcolDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		18CB209A2784272D005AA7D7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				18CB209B27842747005AA7D7 /* Peripheral.swift */,
+				18CB209D27842797005AA7D7 /* Characteristic.swift */,
+				18CB209F278427AE005AA7D7 /* Service.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		18CB20A1278427C8005AA7D7 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20A2278427D9005AA7D7 /* Mock.swift */,
+				18CB20A4278427F5005AA7D7 /* CBCentralManagerMock.swift */,
+				18CB20A627842816005AA7D7 /* CBPeripheralMock.swift */,
+				18CB20A827842832005AA7D7 /* ServiceCharacteristicsMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		18CB20AB27842878005AA7D7 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20A1278427C8005AA7D7 /* Mock */,
+				18CB209A2784272D005AA7D7 /* Store */,
+				18CB2097278425F6005AA7D7 /* Delegate */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		18CB20B027842C49005AA7D7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20B127842C5C005AA7D7 /* CoreBluetooth */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		18CB20B127842C5C005AA7D7 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				18CB20B427842CA6005AA7D7 /* CoreBluetoothViewModel.swift */,
+				18CB20B627842E68005AA7D7 /* CoreBluetoothViewModelExtension+Delegate.swift */,
+				18CB20B827842E87005AA7D7 /* CoreBluetoothViewModelExtension+SwiftUIView.swift */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CB2081278422BF005AA7D7 /* ZethicAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CB2090278422C0005AA7D7 /* Build configuration list for PBXNativeTarget "ZethicAssignment" */;
+			buildPhases = (
+				18CB207E278422BF005AA7D7 /* Sources */,
+				18CB207F278422BF005AA7D7 /* Frameworks */,
+				18CB2080278422BF005AA7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZethicAssignment;
+			productName = ZethicAssignment;
+			productReference = 18CB2082278422BF005AA7D7 /* ZethicAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CB207A278422BF005AA7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					18CB2081278422BF005AA7D7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18CB207D278422BF005AA7D7 /* Build configuration list for PBXProject "ZethicAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CB2079278422BF005AA7D7;
+			productRefGroup = 18CB2083278422BF005AA7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CB2081278422BF005AA7D7 /* ZethicAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CB2080278422BF005AA7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CB208D278422C0005AA7D7 /* Preview Assets.xcassets in Resources */,
+				18CB208A278422C0005AA7D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CB207E278422BF005AA7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CB20A5278427F5005AA7D7 /* CBCentralManagerMock.swift in Sources */,
+				18CB20AF27842A42005AA7D7 /* DetailView.swift in Sources */,
+				18CB2088278422BF005AA7D7 /* ContentView.swift in Sources */,
+				18CB20A727842816005AA7D7 /* CBPeripheralMock.swift in Sources */,
+				18CB209927842609005AA7D7 /* CBPeripheralProtcolDelegate.swift in Sources */,
+				18CB209E27842797005AA7D7 /* Characteristic.swift in Sources */,
+				18CB20A3278427D9005AA7D7 /* Mock.swift in Sources */,
+				18CB20A927842832005AA7D7 /* ServiceCharacteristicsMock.swift in Sources */,
+				18CB20B527842CA6005AA7D7 /* CoreBluetoothViewModel.swift in Sources */,
+				18CB2086278422BF005AA7D7 /* ZethicAssignmentApp.swift in Sources */,
+				18CB20AD27842960005AA7D7 /* ListView.swift in Sources */,
+				18CB20B727842E68005AA7D7 /* CoreBluetoothViewModelExtension+Delegate.swift in Sources */,
+				18CB20B927842E87005AA7D7 /* CoreBluetoothViewModelExtension+SwiftUIView.swift in Sources */,
+				18CB209C27842747005AA7D7 /* Peripheral.swift in Sources */,
+				18CB20A0278427AE005AA7D7 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18CB208E278422C0005AA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CB208F278422C0005AA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CB2091278422C0005AA7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZethicAssignment/Preview Content\"";
+				DEVELOPMENT_TEAM = KSJ2V8K937;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZethicAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmaysharma.ZethicAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18CB2092278422C0005AA7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZethicAssignment/Preview Content\"";
+				DEVELOPMENT_TEAM = KSJ2V8K937;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZethicAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotirmaysharma.ZethicAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CB207D278422BF005AA7D7 /* Build configuration list for PBXProject "ZethicAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CB208E278422C0005AA7D7 /* Debug */,
+				18CB208F278422C0005AA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CB2090278422C0005AA7D7 /* Build configuration list for PBXNativeTarget "ZethicAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CB2091278422C0005AA7D7 /* Debug */,
+				18CB2092278422C0005AA7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CB207A278422BF005AA7D7 /* Project object */;
+}
